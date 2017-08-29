@@ -5,6 +5,12 @@ int main(int argc,char *argv[])
 {
     printf("Assignment 1 by Jace Call\n");
     printf("Number of arguments printed: %d\n", argc);
+
+    if(argc < 2){
+        printf("ERROR: No File Name Specified\n");
+        exit(-1);
+    }
+
     int i;
     
     const char *temp;
