@@ -10,7 +10,7 @@
   </div>
   
   <div>
-  
+        Then ...
         -Print one line describing your program
         -Open the first parameter as a file for writing. If no parameter is provided, write to the stdout FILE pointer
         -Using a loop, save the contents of the array of string pointers passed as a parameter to the main function into the file
